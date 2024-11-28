@@ -1,4 +1,7 @@
 {
+  "Developer": {
+    "UserAgent": "GCM-iOS-5.7.2.1"
+  },
   "App": {
     "EnablePolling": true,
     "PollingIntervalSeconds": 86400,
