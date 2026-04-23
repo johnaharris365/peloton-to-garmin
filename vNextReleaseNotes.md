@@ -4,25 +4,27 @@
 > [!TIP]
 > You can find specific Upgrade Instructions by visitng the [Install Page](https://philosowaffle.github.io/peloton-to-garmin/latest/install/) for your particular flavor of P2G and looking for the section titled `⬆️ Updating`.
 
-## Fixes
+## Features
 
-- [#746] Fix permissions issue on v5 where the GitHub Action was failing to run
+- [#833] Add UI for managing advanced Peloton API configuration options
+- [#837] New Garmin authentication method via service ticket — works when Cloudflare blocks the standard SSO login. Provide a one-time service ticket via the Settings UI, config file, or environment variable. P2G exchanges it for a long-lived DI OAuth2 token (~30 days). See [documentation](https://philosowaffle.github.io/peloton-to-garmin/authentication/garmin-service-ticket) for setup instructions.
 
 ## Docker Tags
 
 - Console
     - `console-stable`
     - `console-latest`
-    - `console-v5.0.1`
-    - `console-v5`
+    - `console-v6.1.0`
+    - `console-v6.1`
 
 - Api
     - `api-stable`
     - `api-latest`
-    - `api-v5.0.1`
-    - `api-v5`
+    - `api-v6.1.0`
+    - `api-v6.1`
 - WebUI
     - `webui-stable`
     - `webui-latest`
-    - `webui-v5.0.1`
-    - `webui-v5`
+    - `webui-v6.1.0`
+    - `webui-v6.1`
+
